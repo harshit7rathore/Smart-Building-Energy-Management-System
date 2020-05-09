@@ -1,7 +1,7 @@
 # Smart-Building-Energy-Management-System
 Project made during the Internal Smart India Hackathon at SRM Institute of Science and Technology.
 
- ##Members:
+   Members:
 
 1) Samraj Singh Khokar - Leader
 2) Harshit Rathore - IOT
