@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet"><link rel="stylesheet" href="style_live_data.css">
+  <script language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://www.gstatic.com/firebasejs/3.6.3/firebase.js"></script>
+
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+ 
+</head>
+
+<body>
+
+  <!-- <div id="game">
+  </div>
+  <ol id="scorelist">
+
+
+</ol> -->
+ 
+
+<div class="main">
+  <div class="card">
+    <div class="card__m card__m--1"></div>
+    <div class="card__m card__m--2"></div>
+    <div class="card__m card__m--3"></div>
+    <div class="card__m card__m--4"></div>
+    <div class="card__m card__m--5"></div>
+    <div class="card__sun"></div>
+    <div class="card__txt">
+      <h1>Temperature Reading: <strong id="temp"></strong></h1>
+      
+    
+    </div>
+    <div class="card__star card__star--1"></div>
+    <div class="card__star card__star--2"></div>
+    <div class="card__star card__star--3"></div>
+    <div class="card__star card__star--4"></div>
+    <div class="card__star card__star--5"></div>
+    <div class="card__fugaz"></div>
+  </div>
+  <div class="card card--b">
+    <div class="card__m card__m--1 card__m--b1"></div>
+    <div class="card__m card__m--2 card__m--b2"></div>
+    <div class="card__m card__m--3 card__m--b3"></div>
+    <div class="card__m card__m--4 card__m--b4"></div>
+    <div class="card__m card__m--5 card__m--b5"></div>
+    <div class="card__sun"></div>
+    <div class="card__txt">
+      <h1>Light Sensor: <strong id="light"></strong></h1>
+     
+    </div>
+    <div class="card__star card__star--1"></div>
+    <div class="card__star card__star--2"></div>
+    <div class="card__star card__star--3"></div>
+    <div class="card__star card__star--4"></div>
+    <div class="card__star card__star--5"></div>
+    <div class="card__fugaz"></div>
+  </div>
+</div>
+
+<br>
+<div class="main">
+  <div class="card">
+    <div class="card__m card__m--1"></div>
+    <div class="card__m card__m--2"></div>
+    <div class="card__m card__m--3"></div>
+    <div class="card__m card__m--4"></div>
+    <div class="card__m card__m--5"></div>
+    <div class="card__sun"></div>
+    <div class="card__txt">
+      <h1>Humidity Reading: <strong id="humidity"></strong></h1>
+      
+    </div>
+    <div class="card__star card__star--1"></div>
+    <div class="card__star card__star--2"></div>
+    <div class="card__star card__star--3"></div>
+    <div class="card__star card__star--4"></div>
+    <div class="card__star card__star--5"></div>
+    <div class="card__fugaz"></div>
+  </div>
+  <div class="card card--b">
+    <div class="card__m card__m--1 card__m--b1"></div>
+    <div class="card__m card__m--2 card__m--b2"></div>
+    <div class="card__m card__m--3 card__m--b3"></div>
+    <div class="card__m card__m--4 card__m--b4"></div>
+    <div class="card__m card__m--5 card__m--b5"></div>
+    <div class="card__sun"></div>
+    <div class="card__txt">
+      <h1>Air Quality: <strong id="airq"></strong></h1>
+      
+    </div>
+    <div class="card__star card__star--1"></div>
+    <div class="card__star card__star--2"></div>
+    <div class="card__star card__star--3"></div>
+    <div class="card__star card__star--4"></div>
+    <div class="card__star card__star--5"></div>
+    <div class="card__fugaz"></div>
+  </div>
+
+
+
+  <script  src="./script-c.js"></script>
+<!-- <center>
+
+  <p></p>
+<p></p><br>
+<p></p><br>
+<p></p><br>
+
+
+</center> -->
+
+</body>
+</html>
